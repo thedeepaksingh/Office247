@@ -1,0 +1,1135 @@
+[
+  {
+    "id": 1,
+    "title": "Find the maximum subarray sum (Kadane's Algorithm)",
+    "difficulty": "Medium",
+    "description": "Given an integer array nums, find the contiguous subarray with the largest sum and return its sum.",
+    "example": {
+      "input": "[-2,1,-3,4,-1,2,1,-5,4]",
+      "output": "6",
+      "explanation": "The subarray [4,-1,2,1] has the largest sum = 6."
+    }
+  },
+  {
+    "id": 2,
+    "title": "Find the minimum value in a rotated sorted array",
+    "difficulty": "Medium",
+    "description": "Find the minimum element in a rotated sorted array with no duplicates.",
+    "example": {
+      "input": "[3,4,5,1,2]",
+      "output": "1",
+      "explanation": "The minimum is 1."
+    }
+  },
+  {
+    "id": 3,
+    "title": "Unique array problem 3",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 3. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 3",
+      "output": "Output for problem 3",
+      "explanation": "Explanation for problem 3."
+    }
+  },
+  {
+    "id": 4,
+    "title": "Unique array problem 4",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 4. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 4",
+      "output": "Output for problem 4",
+      "explanation": "Explanation for problem 4."
+    }
+  },
+  {
+    "id": 5,
+    "title": "Unique array problem 5",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 5. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 5",
+      "output": "Output for problem 5",
+      "explanation": "Explanation for problem 5."
+    }
+  },
+  {
+    "id": 6,
+    "title": "Unique array problem 6",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 6. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 6",
+      "output": "Output for problem 6",
+      "explanation": "Explanation for problem 6."
+    }
+  },
+  {
+    "id": 7,
+    "title": "Unique array problem 7",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 7. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 7",
+      "output": "Output for problem 7",
+      "explanation": "Explanation for problem 7."
+    }
+  },
+  {
+    "id": 8,
+    "title": "Unique array problem 8",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 8. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 8",
+      "output": "Output for problem 8",
+      "explanation": "Explanation for problem 8."
+    }
+  },
+  {
+    "id": 9,
+    "title": "Unique array problem 9",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 9. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 9",
+      "output": "Output for problem 9",
+      "explanation": "Explanation for problem 9."
+    }
+  },
+  {
+    "id": 10,
+    "title": "Unique array problem 10",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 10. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 10",
+      "output": "Output for problem 10",
+      "explanation": "Explanation for problem 10."
+    }
+  },
+  {
+    "id": 11,
+    "title": "Unique array problem 11",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 11. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 11",
+      "output": "Output for problem 11",
+      "explanation": "Explanation for problem 11."
+    }
+  },
+  {
+    "id": 12,
+    "title": "Unique array problem 12",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 12. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 12",
+      "output": "Output for problem 12",
+      "explanation": "Explanation for problem 12."
+    }
+  },
+  {
+    "id": 13,
+    "title": "Unique array problem 13",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 13. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 13",
+      "output": "Output for problem 13",
+      "explanation": "Explanation for problem 13."
+    }
+  },
+  {
+    "id": 14,
+    "title": "Unique array problem 14",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 14. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 14",
+      "output": "Output for problem 14",
+      "explanation": "Explanation for problem 14."
+    }
+  },
+  {
+    "id": 15,
+    "title": "Unique array problem 15",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 15. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 15",
+      "output": "Output for problem 15",
+      "explanation": "Explanation for problem 15."
+    }
+  },
+  {
+    "id": 16,
+    "title": "Unique array problem 16",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 16. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 16",
+      "output": "Output for problem 16",
+      "explanation": "Explanation for problem 16."
+    }
+  },
+  {
+    "id": 17,
+    "title": "Unique array problem 17",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 17. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 17",
+      "output": "Output for problem 17",
+      "explanation": "Explanation for problem 17."
+    }
+  },
+  {
+    "id": 18,
+    "title": "Unique array problem 18",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 18. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 18",
+      "output": "Output for problem 18",
+      "explanation": "Explanation for problem 18."
+    }
+  },
+  {
+    "id": 19,
+    "title": "Unique array problem 19",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 19. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 19",
+      "output": "Output for problem 19",
+      "explanation": "Explanation for problem 19."
+    }
+  },
+  {
+    "id": 20,
+    "title": "Unique array problem 20",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 20. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 20",
+      "output": "Output for problem 20",
+      "explanation": "Explanation for problem 20."
+    }
+  },
+  {
+    "id": 21,
+    "title": "Unique array problem 21",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 21. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 21",
+      "output": "Output for problem 21",
+      "explanation": "Explanation for problem 21."
+    }
+  },
+  {
+    "id": 22,
+    "title": "Unique array problem 22",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 22. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 22",
+      "output": "Output for problem 22",
+      "explanation": "Explanation for problem 22."
+    }
+  },
+  {
+    "id": 23,
+    "title": "Unique array problem 23",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 23. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 23",
+      "output": "Output for problem 23",
+      "explanation": "Explanation for problem 23."
+    }
+  },
+  {
+    "id": 24,
+    "title": "Unique array problem 24",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 24. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 24",
+      "output": "Output for problem 24",
+      "explanation": "Explanation for problem 24."
+    }
+  },
+  {
+    "id": 25,
+    "title": "Unique array problem 25",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 25. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 25",
+      "output": "Output for problem 25",
+      "explanation": "Explanation for problem 25."
+    }
+  },
+  {
+    "id": 26,
+    "title": "Unique array problem 26",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 26. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 26",
+      "output": "Output for problem 26",
+      "explanation": "Explanation for problem 26."
+    }
+  },
+  {
+    "id": 27,
+    "title": "Unique array problem 27",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 27. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 27",
+      "output": "Output for problem 27",
+      "explanation": "Explanation for problem 27."
+    }
+  },
+  {
+    "id": 28,
+    "title": "Unique array problem 28",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 28. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 28",
+      "output": "Output for problem 28",
+      "explanation": "Explanation for problem 28."
+    }
+  },
+  {
+    "id": 29,
+    "title": "Unique array problem 29",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 29. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 29",
+      "output": "Output for problem 29",
+      "explanation": "Explanation for problem 29."
+    }
+  },
+  {
+    "id": 30,
+    "title": "Unique array problem 30",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 30. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 30",
+      "output": "Output for problem 30",
+      "explanation": "Explanation for problem 30."
+    }
+  },
+  {
+    "id": 31,
+    "title": "Unique array problem 31",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 31. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 31",
+      "output": "Output for problem 31",
+      "explanation": "Explanation for problem 31."
+    }
+  },
+  {
+    "id": 32,
+    "title": "Unique array problem 32",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 32. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 32",
+      "output": "Output for problem 32",
+      "explanation": "Explanation for problem 32."
+    }
+  },
+  {
+    "id": 33,
+    "title": "Unique array problem 33",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 33. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 33",
+      "output": "Output for problem 33",
+      "explanation": "Explanation for problem 33."
+    }
+  },
+  {
+    "id": 34,
+    "title": "Unique array problem 34",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 34. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 34",
+      "output": "Output for problem 34",
+      "explanation": "Explanation for problem 34."
+    }
+  },
+  {
+    "id": 35,
+    "title": "Unique array problem 35",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 35. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 35",
+      "output": "Output for problem 35",
+      "explanation": "Explanation for problem 35."
+    }
+  },
+  {
+    "id": 36,
+    "title": "Unique array problem 36",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 36. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 36",
+      "output": "Output for problem 36",
+      "explanation": "Explanation for problem 36."
+    }
+  },
+  {
+    "id": 37,
+    "title": "Unique array problem 37",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 37. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 37",
+      "output": "Output for problem 37",
+      "explanation": "Explanation for problem 37."
+    }
+  },
+  {
+    "id": 38,
+    "title": "Unique array problem 38",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 38. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 38",
+      "output": "Output for problem 38",
+      "explanation": "Explanation for problem 38."
+    }
+  },
+  {
+    "id": 39,
+    "title": "Unique array problem 39",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 39. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 39",
+      "output": "Output for problem 39",
+      "explanation": "Explanation for problem 39."
+    }
+  },
+  {
+    "id": 40,
+    "title": "Unique array problem 40",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 40. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 40",
+      "output": "Output for problem 40",
+      "explanation": "Explanation for problem 40."
+    }
+  },
+  {
+    "id": 41,
+    "title": "Unique array problem 41",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 41. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 41",
+      "output": "Output for problem 41",
+      "explanation": "Explanation for problem 41."
+    }
+  },
+  {
+    "id": 42,
+    "title": "Unique array problem 42",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 42. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 42",
+      "output": "Output for problem 42",
+      "explanation": "Explanation for problem 42."
+    }
+  },
+  {
+    "id": 43,
+    "title": "Unique array problem 43",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 43. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 43",
+      "output": "Output for problem 43",
+      "explanation": "Explanation for problem 43."
+    }
+  },
+  {
+    "id": 44,
+    "title": "Unique array problem 44",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 44. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 44",
+      "output": "Output for problem 44",
+      "explanation": "Explanation for problem 44."
+    }
+  },
+  {
+    "id": 45,
+    "title": "Unique array problem 45",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 45. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 45",
+      "output": "Output for problem 45",
+      "explanation": "Explanation for problem 45."
+    }
+  },
+  {
+    "id": 46,
+    "title": "Unique array problem 46",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 46. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 46",
+      "output": "Output for problem 46",
+      "explanation": "Explanation for problem 46."
+    }
+  },
+  {
+    "id": 47,
+    "title": "Unique array problem 47",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 47. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 47",
+      "output": "Output for problem 47",
+      "explanation": "Explanation for problem 47."
+    }
+  },
+  {
+    "id": 48,
+    "title": "Unique array problem 48",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 48. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 48",
+      "output": "Output for problem 48",
+      "explanation": "Explanation for problem 48."
+    }
+  },
+  {
+    "id": 49,
+    "title": "Unique array problem 49",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 49. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 49",
+      "output": "Output for problem 49",
+      "explanation": "Explanation for problem 49."
+    }
+  },
+  {
+    "id": 50,
+    "title": "Unique array problem 50",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 50. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 50",
+      "output": "Output for problem 50",
+      "explanation": "Explanation for problem 50."
+    }
+  },
+  {
+    "id": 51,
+    "title": "Unique array problem 51",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 51. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 51",
+      "output": "Output for problem 51",
+      "explanation": "Explanation for problem 51."
+    }
+  },
+  {
+    "id": 52,
+    "title": "Unique array problem 52",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 52. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 52",
+      "output": "Output for problem 52",
+      "explanation": "Explanation for problem 52."
+    }
+  },
+  {
+    "id": 53,
+    "title": "Unique array problem 53",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 53. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 53",
+      "output": "Output for problem 53",
+      "explanation": "Explanation for problem 53."
+    }
+  },
+  {
+    "id": 54,
+    "title": "Unique array problem 54",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 54. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 54",
+      "output": "Output for problem 54",
+      "explanation": "Explanation for problem 54."
+    }
+  },
+  {
+    "id": 55,
+    "title": "Unique array problem 55",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 55. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 55",
+      "output": "Output for problem 55",
+      "explanation": "Explanation for problem 55."
+    }
+  },
+  {
+    "id": 56,
+    "title": "Unique array problem 56",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 56. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 56",
+      "output": "Output for problem 56",
+      "explanation": "Explanation for problem 56."
+    }
+  },
+  {
+    "id": 57,
+    "title": "Unique array problem 57",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 57. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 57",
+      "output": "Output for problem 57",
+      "explanation": "Explanation for problem 57."
+    }
+  },
+  {
+    "id": 58,
+    "title": "Unique array problem 58",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 58. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 58",
+      "output": "Output for problem 58",
+      "explanation": "Explanation for problem 58."
+    }
+  },
+  {
+    "id": 59,
+    "title": "Unique array problem 59",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 59. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 59",
+      "output": "Output for problem 59",
+      "explanation": "Explanation for problem 59."
+    }
+  },
+  {
+    "id": 60,
+    "title": "Unique array problem 60",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 60. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 60",
+      "output": "Output for problem 60",
+      "explanation": "Explanation for problem 60."
+    }
+  },
+  {
+    "id": 61,
+    "title": "Unique array problem 61",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 61. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 61",
+      "output": "Output for problem 61",
+      "explanation": "Explanation for problem 61."
+    }
+  },
+  {
+    "id": 62,
+    "title": "Unique array problem 62",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 62. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 62",
+      "output": "Output for problem 62",
+      "explanation": "Explanation for problem 62."
+    }
+  },
+  {
+    "id": 63,
+    "title": "Unique array problem 63",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 63. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 63",
+      "output": "Output for problem 63",
+      "explanation": "Explanation for problem 63."
+    }
+  },
+  {
+    "id": 64,
+    "title": "Unique array problem 64",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 64. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 64",
+      "output": "Output for problem 64",
+      "explanation": "Explanation for problem 64."
+    }
+  },
+  {
+    "id": 65,
+    "title": "Unique array problem 65",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 65. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 65",
+      "output": "Output for problem 65",
+      "explanation": "Explanation for problem 65."
+    }
+  },
+  {
+    "id": 66,
+    "title": "Unique array problem 66",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 66. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 66",
+      "output": "Output for problem 66",
+      "explanation": "Explanation for problem 66."
+    }
+  },
+  {
+    "id": 67,
+    "title": "Unique array problem 67",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 67. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 67",
+      "output": "Output for problem 67",
+      "explanation": "Explanation for problem 67."
+    }
+  },
+  {
+    "id": 68,
+    "title": "Unique array problem 68",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 68. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 68",
+      "output": "Output for problem 68",
+      "explanation": "Explanation for problem 68."
+    }
+  },
+  {
+    "id": 69,
+    "title": "Unique array problem 69",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 69. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 69",
+      "output": "Output for problem 69",
+      "explanation": "Explanation for problem 69."
+    }
+  },
+  {
+    "id": 70,
+    "title": "Unique array problem 70",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 70. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 70",
+      "output": "Output for problem 70",
+      "explanation": "Explanation for problem 70."
+    }
+  },
+  {
+    "id": 71,
+    "title": "Unique array problem 71",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 71. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 71",
+      "output": "Output for problem 71",
+      "explanation": "Explanation for problem 71."
+    }
+  },
+  {
+    "id": 72,
+    "title": "Unique array problem 72",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 72. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 72",
+      "output": "Output for problem 72",
+      "explanation": "Explanation for problem 72."
+    }
+  },
+  {
+    "id": 73,
+    "title": "Unique array problem 73",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 73. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 73",
+      "output": "Output for problem 73",
+      "explanation": "Explanation for problem 73."
+    }
+  },
+  {
+    "id": 74,
+    "title": "Unique array problem 74",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 74. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 74",
+      "output": "Output for problem 74",
+      "explanation": "Explanation for problem 74."
+    }
+  },
+  {
+    "id": 75,
+    "title": "Unique array problem 75",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 75. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 75",
+      "output": "Output for problem 75",
+      "explanation": "Explanation for problem 75."
+    }
+  },
+  {
+    "id": 76,
+    "title": "Unique array problem 76",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 76. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 76",
+      "output": "Output for problem 76",
+      "explanation": "Explanation for problem 76."
+    }
+  },
+  {
+    "id": 77,
+    "title": "Unique array problem 77",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 77. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 77",
+      "output": "Output for problem 77",
+      "explanation": "Explanation for problem 77."
+    }
+  },
+  {
+    "id": 78,
+    "title": "Unique array problem 78",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 78. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 78",
+      "output": "Output for problem 78",
+      "explanation": "Explanation for problem 78."
+    }
+  },
+  {
+    "id": 79,
+    "title": "Unique array problem 79",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 79. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 79",
+      "output": "Output for problem 79",
+      "explanation": "Explanation for problem 79."
+    }
+  },
+  {
+    "id": 80,
+    "title": "Unique array problem 80",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 80. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 80",
+      "output": "Output for problem 80",
+      "explanation": "Explanation for problem 80."
+    }
+  },
+  {
+    "id": 81,
+    "title": "Unique array problem 81",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 81. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 81",
+      "output": "Output for problem 81",
+      "explanation": "Explanation for problem 81."
+    }
+  },
+  {
+    "id": 82,
+    "title": "Unique array problem 82",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 82. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 82",
+      "output": "Output for problem 82",
+      "explanation": "Explanation for problem 82."
+    }
+  },
+  {
+    "id": 83,
+    "title": "Unique array problem 83",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 83. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 83",
+      "output": "Output for problem 83",
+      "explanation": "Explanation for problem 83."
+    }
+  },
+  {
+    "id": 84,
+    "title": "Unique array problem 84",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 84. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 84",
+      "output": "Output for problem 84",
+      "explanation": "Explanation for problem 84."
+    }
+  },
+  {
+    "id": 85,
+    "title": "Unique array problem 85",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 85. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 85",
+      "output": "Output for problem 85",
+      "explanation": "Explanation for problem 85."
+    }
+  },
+  {
+    "id": 86,
+    "title": "Unique array problem 86",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 86. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 86",
+      "output": "Output for problem 86",
+      "explanation": "Explanation for problem 86."
+    }
+  },
+  {
+    "id": 87,
+    "title": "Unique array problem 87",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 87. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 87",
+      "output": "Output for problem 87",
+      "explanation": "Explanation for problem 87."
+    }
+  },
+  {
+    "id": 88,
+    "title": "Unique array problem 88",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 88. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 88",
+      "output": "Output for problem 88",
+      "explanation": "Explanation for problem 88."
+    }
+  },
+  {
+    "id": 89,
+    "title": "Unique array problem 89",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 89. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 89",
+      "output": "Output for problem 89",
+      "explanation": "Explanation for problem 89."
+    }
+  },
+  {
+    "id": 90,
+    "title": "Unique array problem 90",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 90. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 90",
+      "output": "Output for problem 90",
+      "explanation": "Explanation for problem 90."
+    }
+  },
+  {
+    "id": 91,
+    "title": "Unique array problem 91",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 91. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 91",
+      "output": "Output for problem 91",
+      "explanation": "Explanation for problem 91."
+    }
+  },
+  {
+    "id": 92,
+    "title": "Unique array problem 92",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 92. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 92",
+      "output": "Output for problem 92",
+      "explanation": "Explanation for problem 92."
+    }
+  },
+  {
+    "id": 93,
+    "title": "Unique array problem 93",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 93. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 93",
+      "output": "Output for problem 93",
+      "explanation": "Explanation for problem 93."
+    }
+  },
+  {
+    "id": 94,
+    "title": "Unique array problem 94",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 94. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 94",
+      "output": "Output for problem 94",
+      "explanation": "Explanation for problem 94."
+    }
+  },
+  {
+    "id": 95,
+    "title": "Unique array problem 95",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 95. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 95",
+      "output": "Output for problem 95",
+      "explanation": "Explanation for problem 95."
+    }
+  },
+  {
+    "id": 96,
+    "title": "Unique array problem 96",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 96. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 96",
+      "output": "Output for problem 96",
+      "explanation": "Explanation for problem 96."
+    }
+  },
+  {
+    "id": 97,
+    "title": "Unique array problem 97",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 97. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 97",
+      "output": "Output for problem 97",
+      "explanation": "Explanation for problem 97."
+    }
+  },
+  {
+    "id": 98,
+    "title": "Unique array problem 98",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 98. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 98",
+      "output": "Output for problem 98",
+      "explanation": "Explanation for problem 98."
+    }
+  },
+  {
+    "id": 99,
+    "title": "Unique array problem 99",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 99. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 99",
+      "output": "Output for problem 99",
+      "explanation": "Explanation for problem 99."
+    }
+  },
+  {
+    "id": 100,
+    "title": "Unique array problem 100",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 100. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 100",
+      "output": "Output for problem 100",
+      "explanation": "Explanation for problem 100."
+    }
+  },
+  {
+    "id": 101,
+    "title": "Unique array problem 101",
+    "difficulty": "Hard",
+    "description": "This is a unique description for problem 101. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 101",
+      "output": "Output for problem 101",
+      "explanation": "Explanation for problem 101."
+    }
+  },
+  {
+    "id": 102,
+    "title": "Unique array problem 102",
+    "difficulty": "Easy",
+    "description": "This is a unique description for problem 102. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 102",
+      "output": "Output for problem 102",
+      "explanation": "Explanation for problem 102."
+    }
+  },
+  {
+    "id": 103,
+    "title": "Unique array problem 103",
+    "difficulty": "Medium",
+    "description": "This is a unique description for problem 103. Solve using appropriate array algorithm techniques.",
+    "example": {
+      "input": "Input for problem 103",
+      "output": "Output for problem 103",
+      "explanation": "Explanation for problem 103."
+    }
+  }
+]
