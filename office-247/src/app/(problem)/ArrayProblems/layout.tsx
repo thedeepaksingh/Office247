@@ -8,7 +8,7 @@ interface ArrayProblemsLayoutProps {
 
 const ArrayProblemsLayout = ({ children }: ArrayProblemsLayoutProps) => {
   return (
-    <div className="p-4 text-white">
+    <div className="p-4 text-white ">
       <div className="flex gap-4">
         <div className="w-[100%]">{children}</div> {/* Left 100% */}
       </div>

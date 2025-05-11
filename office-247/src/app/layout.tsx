@@ -29,7 +29,7 @@ export default function RootLayout({
       >
         <div className="min-h-screen">
           {/* Fixed Navbar */}
-          <nav className="fixed top-0 left-0 w-full bg-blue-600 text-white shadow-md z-50">
+          <nav className="fixed top-0 left-0 w-full bg-gray-800 text-white shadow-md z-50">
             <div className=" mx-auto px-4 py-3 flex items-center justify-between">
               <h1 className="text-lg font-bold">Office 24/7</h1>
               <ul className="flex space-x-4 text-sm font-medium">

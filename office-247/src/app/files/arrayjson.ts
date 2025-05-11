@@ -40,7 +40,7 @@ const ArrayProblem = [
         link: "https://www.geeksforgeeks.org/two-sum-problem/",
       },
     ],
-    rendersolution: "component1",
+    rendersolution: "TwoSum",
   },
 ];
 

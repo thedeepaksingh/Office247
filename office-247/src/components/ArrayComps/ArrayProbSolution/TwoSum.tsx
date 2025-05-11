@@ -33,9 +33,8 @@ const TwoSumVisualizer: React.FC = () => {
 
   return (
     <div className="text-white p-4">
-      <h2 className="text-xl font-semibold mb-2">Two Sum Problem</h2>
-      <p className="text-sm text-gray-400 mb-4">
-        Find two numbers that add up to <strong>{target}</strong>
+      <p className="text-sm text-gray-400 mb-2">
+        Target:  <strong>{target}</strong>
       </p>
       <div className="flex gap-2 mb-4">
         {nums.map((num, index) => {
