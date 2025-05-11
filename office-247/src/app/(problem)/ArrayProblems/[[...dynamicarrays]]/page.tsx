@@ -1,10 +1,11 @@
 "use client";
 
 import React from "react";
-import ArrayLayoutLeft from "@/app/components/ArrayComps/ArraylayoutLeft";
+import ArrayLayoutLeft from "@/app/components/ArrayComps/Layout/ArraylayoutLeft";
 import ArrayProblem from "@/app/files/arrayjson";
 
 const DynamicArrayPage = () => {
+
   // const params = useParams();
   // const dynamicarrays = params.dynamicarrays as string[] | undefined;
 
@@ -12,15 +13,12 @@ const DynamicArrayPage = () => {
   //   return <h1>Default Array Problems Page</h1>;
   // }
 
-  // sharing this to both the components
   const [sharedArrayItem, setSharedArrayItem] = React.useState<string[]>([]);
-  // variable to check if the item is clicked on right and change the layout of right to show item details
   const [isItemClicked, setIsItemClicked] = React.useState(false);
 
-  // function to response on click of the item in the right side
   const handleItemClick = (item: string) => {
     setSharedArrayItem((prev) => [...prev, item]);
-    setIsItemClicked(!isItemClicked); // toggle this item to show the details of the item
+    setIsItemClicked(!isItemClicked); 
     console.log("Item clicked:", item);
   };
 
@@ -32,23 +30,24 @@ const DynamicArrayPage = () => {
             <div className=" p-2 w-[60%] gap-4 bg-gray-800 rounded-lg">
               <ArrayLayoutLeft sharedItem={sharedArrayItem} />
             </div>
-            {/* Left 100% */}
-            <div className="p-2 w-[40%] gap-4 bg-gray-800 h-full rounded-lg">
-              <span className="text-white">
+
+            <div className="p-4 w-[40%] bg-gray-800 h-full rounded-lg shadow-lg">
+              <h2 className="text-white text-lg font-semibold mb-4">
+                Array Problems
+              </h2>
+              <div className="flex flex-wrap gap-3 overflow-y-auto max-h-[80vh]">
                 {ArrayProblem.map((item, index) => (
                   <div
                     key={index}
-                    className="badge badge-primary text-white"
-                    onClick={() => {
-                      handleItemClick(item.title);
-                    }}
+                    onClick={() => handleItemClick(item.title)}
+                    className="cursor-pointer transition duration-200 transform hover:scale-105"
                   >
-                    <span className="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-yellow-600/20 ring-inset cursor-pointer">
+                    <span className="inline-flex items-center rounded-md bg-yellow-100 px-3 py-1 text-sm font-medium text-yellow-800 ring-1 ring-yellow-500/50 shadow-sm hover:bg-yellow-200">
                       {item.title}
                     </span>
                   </div>
                 ))}
-              </span>
+              </div>
             </div>
           </div>
         </div>

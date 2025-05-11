@@ -1,7 +1,7 @@
 import ArrayProblem from "@/app/files/arrayjson";
 import React from "react";
 import { FaBolt, FaCode, FaTag } from "react-icons/fa";
-import multipleComponents from "@/app/ProblemSolutions/Array/SolutionArrays";
+import componentMap from "@/app/ProblemSolutions/Array/SolutionArrays";
 
 interface ArrayLayoutLeftProps {
   sharedItem: string[];
@@ -20,11 +20,17 @@ const ArrayLayoutLeft: React.FC<ArrayLayoutLeftProps> = ({ sharedItem }) => {
     return <div className="text-red-500 p-4">Problem not found.</div>;
   }
 
-  const renderSolutionKey =
-    problem.rendersolution as keyof typeof multipleComponents;
-  const SolutionComponent = React.createElement(
-    multipleComponents[renderSolutionKey]
-  );
+  // const renderSolutionKey =
+  //   problem.rendersolution as keyof typeof multipleComponents;
+  // const SolutionComponent = React.createElement(
+  //   multipleComponents[renderSolutionKey]
+  // );
+
+  const ComponentToRender = componentMap[problem.rendersolution];
+  if (!ComponentToRender) {
+    alert("Component not found");
+    return <div className="text-red-500 p-4">Component not found.</div>;
+  }
 
   return (
     <div className="p-6 bg-gray-900 rounded-lg text-white w-full space-y-4">
@@ -47,12 +53,18 @@ const ArrayLayoutLeft: React.FC<ArrayLayoutLeftProps> = ({ sharedItem }) => {
         <span className="text-sm">{problem.rendersolution}</span>
       </div>
       {/* // check if the component is not undefined else render the component */}
-      {SolutionComponent === undefined ? (
+      {/* {SolutionComponent === undefined ? (
         <div className="text-red-500 p-4">Solution component not found.</div>
       ) : (
         <div className="text-green-300 p-4">{SolutionComponent}</div>
-      )}
-      {/* Render the solution component */}
+      )} */}
+      <div>
+        {ComponentToRender ? (
+          <ComponentToRender />
+        ) : (
+          <div className="text-red-400">Component not found</div>
+        )}
+      </div>
     </div>
   );
 };
