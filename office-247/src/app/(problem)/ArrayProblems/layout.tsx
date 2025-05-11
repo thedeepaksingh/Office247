@@ -1,17 +1,17 @@
+"use client";
+
 import React from "react";
 
-export const metadata = {
-  title: "Array Problems",
-  description: "Practice problems related to arrays",
-};
+interface ArrayProblemsLayoutProps {
+  children: [React.ReactNode]; // This prop will contain the child components passed to this layout
+}
 
-const ArrayProblemsLayout = ({ children }: { children: React.ReactNode }) => {
+const ArrayProblemsLayout = ({ children }: ArrayProblemsLayoutProps) => {
   return (
-    <div style={{ padding: "1rem", border: "1px solid #ccc" }}>
-      <header>
-        <h2>Array Problems Section</h2>
-      </header>
-      <main>{children}</main>
+    <div className="p-4 text-white">
+      <div className="flex gap-4">
+        <div className="w-[100%]">{children}</div> {/* Left 100% */}
+      </div>
     </div>
   );
 };
