@@ -5,7 +5,6 @@ import TwoSumVisualizer from "@/components/ArrayComps/ArrayProbSolution/TwoSum";
 // Defining components inside a constant object
 const multipleComponentsArray = {
   TwoSum: TwoSumVisualizer,
-
   component2: () => {
     return <div>This is component 2</div>;
   },
@@ -15,5 +14,4 @@ const multipleComponentsArray = {
   },
 };
 
-// Exporting the components object
 export default multipleComponentsArray;

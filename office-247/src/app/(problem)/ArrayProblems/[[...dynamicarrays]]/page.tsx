@@ -1,10 +1,10 @@
 "use client";
 
-import { useParams } from "next/navigation";
 import React from "react";
 import ArrayLayoutLeft from "@/components/ArrayComps/ArraylayoutLeft";
-import ArrayLayoutRight from "@/components/ArrayComps/ArrayLayoutRight";
 import ArrayProblem from "@/app/files/arrayjson";
+
+
 
 const DynamicArrayPage = () => {
   // const params = useParams();
