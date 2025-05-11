@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import TwoSumVisualizer from "@/components/ArrayComps/ArrayProbSolution/TwoSum";
+import TwoSumVisualizer from "@/app/components/ArrayComps/ArrayProbSolution/TwoSum";
 // Defining components inside a constant object
 const multipleComponentsArray = {
   TwoSum: TwoSumVisualizer,

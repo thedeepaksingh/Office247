@@ -1,10 +1,8 @@
 "use client";
 
 import React from "react";
-import ArrayLayoutLeft from "@/components/ArrayComps/ArraylayoutLeft";
+import ArrayLayoutLeft from "@/app/components/ArrayComps/ArraylayoutLeft";
 import ArrayProblem from "@/app/files/arrayjson";
-
-
 
 const DynamicArrayPage = () => {
   // const params = useParams();

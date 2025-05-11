@@ -1,7 +1,7 @@
 import ArrayProblem from "@/app/files/arrayjson";
 import React from "react";
 import { FaBolt, FaCode, FaTag } from "react-icons/fa";
-import multipleComponents from "@/ProblemSolutions/Array/SolutionArrays";
+import multipleComponents from "@/app/ProblemSolutions/Array/SolutionArrays";
 
 interface ArrayLayoutLeftProps {
   sharedItem: string[];
