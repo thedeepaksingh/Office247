@@ -1,11 +1,10 @@
 "use client";
 
 import React from "react";
-import ArrayLayoutLeft from "@/app/components/ArrayComps/Layout/ArraylayoutLeft";
-import ArrayProblem from "@/app/files/arrayjson";
+import ArrayLayoutLeft from "@/app/components/ArrayComps/CustomLayout/ProblemPanel";
+import ArrayProblem from "@/app/Files/ArrayProbDetails/arrayjson";
 
 const DynamicArrayPage = () => {
-
   // const params = useParams();
   // const dynamicarrays = params.dynamicarrays as string[] | undefined;
 
@@ -18,8 +17,13 @@ const DynamicArrayPage = () => {
 
   const handleItemClick = (item: string) => {
     setSharedArrayItem((prev) => [...prev, item]);
-    setIsItemClicked(!isItemClicked); 
+    setIsItemClicked(!isItemClicked);
     console.log("Item clicked:", item);
+  };
+
+  const resetLeftPanel = () => {
+    setSharedArrayItem([]);
+    setIsItemClicked(false);
   };
 
   return (
@@ -32,9 +36,15 @@ const DynamicArrayPage = () => {
             </div>
 
             <div className="p-4 w-[40%] bg-gray-800 h-full rounded-lg shadow-lg">
-              <h2 className="text-white text-lg font-semibold mb-4">
+              <h2 className="text-cyan-500 text-2xl font-semibold mb-4">
                 Array Problems
               </h2>
+              <button
+                className="bg-black text-white px-4 py-2 rounded mb-4"
+                onClick={resetLeftPanel}
+              >
+                <span className="text-xs font-bold">Reset Visualization</span>
+              </button>
               <div className="flex flex-wrap gap-3 overflow-y-auto max-h-[80vh]">
                 {ArrayProblem.map((item, index) => (
                   <div

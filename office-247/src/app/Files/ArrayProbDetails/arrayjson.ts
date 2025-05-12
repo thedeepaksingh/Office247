@@ -85,7 +85,7 @@ const ArrayProblem = [
         link: "https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/",
       },
     ],
-    rendersolution: "ValidParentheses",
+    rendersolution: "Validparenthesis",
   },
   {
     id: 3,
