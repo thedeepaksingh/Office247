@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 
 const ThreeSum = () => {
-  const [nums] = useState<number[]>([-1, 0, 1, 2, -1, -4]);
+  const [nums] = React.useState<number[]>([-1, 0, 1, 2, -1, -4]);
   const [target] = useState<number>(3); // Changed to 0 for valid result
   const [highlighted, setHighlighted] = useState<number[]>([]);
   const [foundIndices, setFoundIndices] = useState<number[] | null>(null);
@@ -73,36 +73,60 @@ const ThreeSum = () => {
   };
 
   return (
-    <div className="text-white p-4">
-      <div className="flex justify-between items-center mb-2">
-        <p className="text-sm text-gray-400">
-          Target: <strong>{target}</strong>
-        </p>
+    <div className="text-white pt-4">
+      <div className="flex justify-between items-center mb-2 border-b border-gray-700 pb-2">
         <div className="space-x-2">
           <button
-            className="bg-blue-300 px-3 py-1 rounded hover:bg-blue-800"
+            className="bg-blue-500 px-3 py-1 rounded hover:bg-black"
             onClick={startVisualization}
             disabled={running || foundIndices !== null}
           >
             Start
           </button>
           <button
-            className="bg-red-300 px-3 py-1 rounded hover:bg-red-800"
+            className="bg-red-500 px-3 py-1 rounded hover:bg-black"
             onClick={stopVisualization}
             disabled={!running}
           >
             Stop
           </button>
           <button
-            className="bg-yellow-300 px-3 py-1 rounded hover:bg-yellow-800"
+            className="bg-yellow-500 px-3 py-1 rounded hover:bg-black"
             onClick={resetVisualization}
           >
             Reset
           </button>
         </div>
       </div>
+      <div className="flex flex-row gap-2 mb-10 mt-4">
+        <p className="text-xl text-gray-400">
+          Target: <strong>{target}</strong>
+        </p>
+        <p className="text-xl text-gray-400">
+          Highlighted: {highlighted ? highlighted.join(", ") : "None"}
+        </p>
+        <p className="text-xl text-gray-400">
+          Found Indices: {foundIndices ? foundIndices.join(", ") : "None"}
+        </p>
+        <p className="text-xl text-gray-400">
+          Current Indices: {iRef.current}, {jRef.current}, {kRef.current}
+        </p>
+        <p className="text-xl text-gray-400">
+          Current Sum:{" "}
+          {nums[iRef.current] + nums[jRef.current] + nums[kRef.current]}
+        </p>
+        <p className="text-xl text-gray-400">
+          Current Numbers: {nums[iRef.current]}, {nums[jRef.current]},{" "}
+          {nums[kRef.current]}
+        </p>
+      </div>
 
-      <div className="flex gap-2 mb-4">
+      <div className="flex items-center justify-center gap-2 mb-4 ">
+        <div className="flex gap-2"></div>
+        {/* <p className="text-sm text-gray-400">
+          Highlighted: {highlighted.join(", ")}
+        </p> */}
+
         {nums.map((num, index) => {
           const isCurrent = highlighted.includes(index);
           const isPartOfResult = foundIndices?.includes(index);

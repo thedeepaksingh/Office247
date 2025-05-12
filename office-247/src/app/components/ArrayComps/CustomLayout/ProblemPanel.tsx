@@ -10,7 +10,9 @@ interface ArrayLayoutLeftProps {
 const ArrayLayoutLeft: React.FC<ArrayLayoutLeftProps> = ({ sharedItem }) => {
   if (!sharedItem || sharedItem.length === 0) {
     return (
-      <div className="text-white p-4">Select a problem to view details.</div>
+      <div className="flex items-center justify-center h-full text-red-500 text-2xl">
+        No Problem Selected! Please select a problem to view details.
+      </div>
     );
   }
 
@@ -106,6 +108,18 @@ const ArrayLayoutLeft: React.FC<ArrayLayoutLeftProps> = ({ sharedItem }) => {
             <p className="text-sm text-gray-300 mt-2">
               {problem.solution || "No time complexity information."}
             </p>
+          </div>
+          <div className="bg-gray-800 p-4 rounded-lg shadow-md">
+            <h3 className="text-lg font-semibold text-yellow-400 underline">
+              Edge Cases
+            </h3>
+            <ul className="list-disc list-inside text-gray-100">
+              {problem.edge_cases.map((item, index) => (
+                <li key={index} className="text-sm pt-2">
+                  {item}
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>

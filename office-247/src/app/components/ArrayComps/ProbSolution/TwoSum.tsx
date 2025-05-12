@@ -94,7 +94,7 @@ const TwoSumVisualizer: React.FC = () => {
                   ? "bg-green-500"
                   : isHighlighted
                   ? "bg-yellow-500"
-                  : "bg-gray-700"
+                  : "bg-black"
               } transition-all duration-300 ease-in-out`}
             >
               {num}
