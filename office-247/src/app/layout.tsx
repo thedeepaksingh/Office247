@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+// import { FaOm } from "react-icons/fa";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,7 +32,7 @@ export default function RootLayout({
           {/* Fixed Navbar */}
           <nav className="fixed top-0 left-0 w-full bg-gray-800 text-white shadow-md z-50">
             <div className=" mx-auto px-4 py-3 flex items-center justify-between">
-              <h1 className="text-lg font-bold">Office 24/7</h1>
+              <h1 className="text-2xl font-bold text-cyan-600">Office 24/7 </h1>
               <ul className="flex space-x-4 text-sm font-medium">
                 <li>
                   <a href="#" className="hover:underline">
