@@ -1,6 +1,6 @@
 "use client";
 
-import React, { use } from "react";
+import React from "react";
 
 const ContainerWithMostWater = () => {
   const [height] = React.useState<number[]>([1, 8, 6, 2, 5, 4, 8, 3, 7]);
