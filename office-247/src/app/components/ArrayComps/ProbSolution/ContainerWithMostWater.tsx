@@ -3,9 +3,7 @@
 import React, { use } from "react";
 
 const ContainerWithMostWater = () => {
-  const [height, setHeight] = React.useState<number[]>([
-    1, 8, 6, 2, 5, 4, 8, 3, 7,
-  ]);
+  const [height] = React.useState<number[]>([1, 8, 6, 2, 5, 4, 8, 3, 7]);
   const [area, setArea] = React.useState<number>(0);
   const [highlighted, setHighlighted] = React.useState<number[]>([]);
   const [maxhighlighted, setMaxHighlighted] = React.useState<number[]>([]);
@@ -17,9 +15,7 @@ const ContainerWithMostWater = () => {
   const rightRef = React.useRef(height.length - 1);
   const intervalRef = React.useRef<NodeJS.Timeout | null>(null);
 
-  const startVisualization = (
-    event: React.MouseEvent<HTMLButtonElement>
-  ): void => {
+  const startVisualization = (): void => {
     try {
       if (running || maxAreaRef.current !== 0) return;
 
@@ -48,6 +44,7 @@ const ContainerWithMostWater = () => {
           `Highlighted Index: ${left} and ${right}`,
         ]);
         setArea(currentArea);
+        setMessage((prev) => [...prev, `Area: ${area}`]);
 
         setHighlighted([left, right]);
         if (currentArea > maxAreaRef.current) {
@@ -76,9 +73,7 @@ const ContainerWithMostWater = () => {
     }
   };
 
-  const stopVisualization = (
-    event: React.MouseEvent<HTMLButtonElement>
-  ): void => {
+  const stopVisualization = () => {
     try {
       if (intervalRef.current) {
         clearInterval(intervalRef.current);
@@ -99,9 +94,7 @@ const ContainerWithMostWater = () => {
       throw new Error("Function not implemented.");
     }
   };
-  const resetVisualization = (
-    event: React.MouseEvent<HTMLButtonElement>
-  ): void => {
+  const resetVisualization = () => {
     try {
       leftRef.current = -0;
       rightRef.current = height.length - 1;

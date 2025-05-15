@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 
 const ThreeSum = () => {
   const [nums] = React.useState<number[]>([-1, 0, 1, 2, -1, -4]);

@@ -15,8 +15,8 @@ const DynamicArrayPage = () => {
 
   const [sharedArrayItem, setSharedArrayItem] = React.useState<string[]>([]);
   const [isItemClicked, setIsItemClicked] = React.useState(false);
-  const [isArrayProblem, setIsArrayProblem] = React.useState<[]>([]);
-  const [isStringProblem, setIsStringProblem] = React.useState<[]>([]);
+  // const [isArrayProblem, setIsArrayProblem] = React.useState<[]>([]);
+  // const [isStringProblem, setIsStringProblem] = React.useState<[]>([]);
 
   const handleItemClick = (item: string) => {
     setSharedArrayItem((prev) => [...prev, item]);
