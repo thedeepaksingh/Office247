@@ -3,11 +3,11 @@ import React, { Suspense } from "react";
 import { FaBolt, FaCode, FaTag } from "react-icons/fa";
 import componentMap from "@/app/FuncMap/Array/ArrayFuncs";
 
-interface ArrayLayoutLeftProps {
+interface DynamicLayoutProps {
   sharedItem: string[];
 }
 
-const ArrayLayoutLeft: React.FC<ArrayLayoutLeftProps> = ({ sharedItem }) => {
+const DynamicLayout: React.FC<DynamicLayoutProps> = ({ sharedItem }) => {
   if (!sharedItem || sharedItem.length === 0) {
     return (
       <div className="flex items-center justify-center h-full text-red-500 text-2xl">
@@ -123,21 +123,8 @@ const ArrayLayoutLeft: React.FC<ArrayLayoutLeftProps> = ({ sharedItem }) => {
           </div>
         </div>
       </div>
-
-      {/* Bottom Component */}
-      {/* <div className="pt-6 border-t border-gray-700">
-        <Suspense
-          fallback={<div className="text-gray-400">Loading component...</div>}
-        >
-          {ComponentToRender ? (
-            <ComponentToRender />
-          ) : (
-            <div className="text-red-400">Component not found</div>
-          )}
-        </Suspense>
-      </div> */}
     </div>
   );
 };
 
-export default ArrayLayoutLeft;
+export default DynamicLayout;

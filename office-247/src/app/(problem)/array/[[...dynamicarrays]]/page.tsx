@@ -1,8 +1,8 @@
 "use client";
 
 import React from "react";
-import ArrayLayoutLeft from "@/app/components/ArrayComps/CustomLayout/ProblemPanel";
 import ArrayProblem from "@/app/Files/ArrayProbDetails/arrayjson";
+import DynamicLayout from "@/app/components/ArrayComps/CustomLayout/ProblemPanel";
 import { FaUndoAlt } from "react-icons/fa";
 
 const DynamicArrayPage = () => {
@@ -34,7 +34,7 @@ const DynamicArrayPage = () => {
       <div className="flex gap-4">
         {/* Left Panel */}
         <div className="p-2 w-[70%] gap-4 bg-gray-800 rounded-lg">
-          <ArrayLayoutLeft sharedItem={sharedArrayItem} />
+          <DynamicLayout sharedItem={sharedArrayItem} />
         </div>
 
         {/* Right Panel */}
@@ -57,7 +57,15 @@ const DynamicArrayPage = () => {
                 onClick={() => handleItemClick(item.title)}
                 className="cursor-pointer transition-transform duration-200 hover:scale-105"
               >
-                <span className="inline-flex items-center rounded-md bg-gray-700 px-3 py-1 text-md font-medium text-white hover:bg-gray-600 transition-colors duration-200">
+                <span
+                  className={`inline-flex items-center rounded-md px-3 py-1 text-md font-medium text-white ${
+                    item.completionPercentage === "100"
+                      ? "bg-green-400"
+                      : item.completionPercentage === "90"
+                      ? "bg-cyan-600"
+                      : "bg-black"
+                  }`}
+                >
                   {item.title}
                 </span>
               </div>

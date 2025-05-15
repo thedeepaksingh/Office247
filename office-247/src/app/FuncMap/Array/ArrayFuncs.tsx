@@ -43,6 +43,10 @@ const componentMap: { [key: string]: React.FC } = {
   RemoveElement: React.lazy(
     () => import("@/app/components/ArrayComps/ProbSolution/RemoveElement")
   ),
+  GameOfLife: React.lazy(
+    () => import("@/app/components/ArrayComps/ProbSolution/GameOfLife")
+  ),
+
   // Add more mappings here
 };
 

@@ -41,6 +41,7 @@ const ArrayProblem = [
       },
     ],
     rendersolution: "TwoSumVisualizer",
+    completionPercentage: "100",
   },
   {
     id: 2,
@@ -86,6 +87,7 @@ const ArrayProblem = [
       },
     ],
     rendersolution: "Validparenthesis",
+    completionPercentage: "90",
   },
   {
     id: 3,
@@ -133,6 +135,7 @@ const ArrayProblem = [
       },
     ],
     rendersolution: "MedianOfTwoSortedArrays",
+    completionPercentage: "0",
   },
   {
     id: 4,
@@ -177,6 +180,7 @@ const ArrayProblem = [
       },
     ],
     rendersolution: "ContainerWithMostWater",
+    completionPercentage: "100",
   },
   {
     id: 5,
@@ -222,6 +226,107 @@ const ArrayProblem = [
       },
     ],
     rendersolution: "ThreeSum",
+    completionPercentage: "100",
+  },
+  {
+    id: 6,
+    title: "Move All Zeroes to End",
+    difficulty: "Easy",
+    description:
+      "Given an array arr[] of non-negative integers, move all the 0s to the end of the array while maintaining the relative order of the non-zero elements. This operation must be done in-place without using extra space.",
+    constraints: {
+      n: "1 ≤ arr.length ≤ 10^5",
+      arr: "0 ≤ arr[i] ≤ 10^5",
+    },
+    tags: ["Array", "Two Pointers", "In-place Operation"],
+    author: "GeeksforGeeks",
+    example: {
+      input: "arr = [1, 2, 0, 4, 3, 0, 5, 0]",
+      output: "[1, 2, 4, 3, 5, 0, 0, 0]",
+      explanation:
+        "There are three 0s in the array. They are moved to the end while maintaining the relative order of non-zero elements.",
+    },
+    hints: [
+      "Use a two-pointer technique to maintain the position of the last non-zero element.",
+      "Swap non-zero elements with zeros encountered earlier.",
+      "Avoid using extra space for another array.",
+    ],
+    solution:
+      "Iterate through the array, keeping track of the position to insert the next non-zero element. Swap elements when necessary to push zeroes to the end while preserving the order of non-zero elements.",
+    time_complexity: "O(n)",
+    space_complexity: "O(1)",
+    edge_cases: [
+      "All elements are non-zero (e.g., [10, 20, 30]) → no change.",
+      "All elements are zero (e.g., [0, 0]) → no change.",
+      "Array starts with zeroes (e.g., [0, 1, 2]) → zeroes should be moved to end.",
+    ],
+    related_problems: [
+      "Remove Element",
+      "Sort Array By Parity",
+      "Segregate 0s and 1s",
+    ],
+    additional_resources: [
+      {
+        title: "GeeksforGeeks Article",
+        link: "https://www.geeksforgeeks.org/move-zeroes-end-array/",
+      },
+      {
+        title: "LeetCode Problem Page",
+        link: "https://leetcode.com/problems/move-zeroes/",
+      },
+    ],
+    rendersolution: "MoveZeroes",
+    completionPercentage: "0",
+  },
+  {
+    id: 7,
+    title: "Conway’s Game of Life",
+    difficulty: "Medium",
+    description:
+      "Given a 2D board representing the state of each cell (alive or dead), compute the next state of the board according to the rules of Conway’s Game of Life. The rules determine whether a cell lives, dies, or is born based on the number of live neighbors. The update must be done in-place with no extra space.",
+    constraints: {
+      m_n: "1 ≤ board.length, board[0].length ≤ 25",
+      cell_value: "board[i][j] is 0 (dead) or 1 (alive)",
+    },
+    tags: ["Array", "Matrix", "Simulation", "In-place Operation"],
+    author: "LeetCode",
+    example: {
+      input: "board = [[0,1,0],[0,0,1],[1,1,1],[0,0,0]]",
+      output: "[[0,0,0],[1,0,1],[0,1,1],[0,1,0]]",
+      explanation:
+        "Each cell's next state is determined by the number of live neighbors. The board is updated simultaneously based on these rules.",
+    },
+    hints: [
+      "Iterate over each cell and count its live neighbors.",
+      "To keep it in-place, use temporary markers (like 2 for dead→live and -1 for live→dead).",
+      "Apply the rules based on current states before converting temporary states back to final values.",
+    ],
+    solution:
+      "Traverse the grid and for each cell, count its live neighbors (adjacent 8 directions). Mark transitions using temporary values (e.g., -1 for 1→0 and 2 for 0→1) to store both old and new states in place. After the first pass, do a second pass to finalize the updated values by converting temporary markers to 0 or 1.",
+    time_complexity: "O(m * n)",
+    space_complexity: "O(1) (excluding input and output)",
+    edge_cases: [
+      "All cells are dead → remain dead if no neighbors become alive.",
+      "All cells are alive → some cells may die based on overpopulation.",
+      "Single cell → always dies due to underpopulation.",
+    ],
+    related_problems: [
+      "Game of Life - Infinite Board",
+      "Set Matrix Zeroes",
+      "Image Smoother",
+    ],
+    additional_resources: [
+      {
+        title: "LeetCode Problem Page",
+        link: "https://leetcode.com/problems/game-of-life/",
+      },
+      {
+        title: "GeeksforGeeks Article",
+        link: "https://www.geeksforgeeks.org/conways-game-life-python-implementation/",
+      },
+    ],
+    rendersolution: "GameOfLife",
+    completionPercentage: "0",
   },
 ];
 
